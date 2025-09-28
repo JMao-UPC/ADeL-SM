@@ -16,7 +16,7 @@ Adaptive deep learning framework for high-fidelity single-molecule imaging
 ## 📚 Overview
 ---
 ADeL-SM is an adaptive deep learning framework designed to enhance single-molecule fluorescence imaging. By combining advanced denoising strategies with precise localization algorithms, it significantly improves signal-to-noise ratio and localization accuracy, enabling reliable quantitative analysis of molecular dynamics. The method has been validated on simulated and experimental data, demonstrating its ability to preserve single-molecule signals even under high-density and low-SNR conditions.
-![演示数据图像](assets/TOC.png)
+![TOC](assets/TOC.png)
 
 ## ⏳ Quick start DeepSeMi
 ---
