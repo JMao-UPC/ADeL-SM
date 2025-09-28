@@ -2,7 +2,7 @@
 Adaptive deep learning framework for high-fidelity single-molecule imaging
 
 ## 📋 Table of content
---
+---
 - [Overview](#overview)
 
 ### 🚀 Quick start ADeL-SM
@@ -18,12 +18,12 @@ Adaptive deep learning framework for high-fidelity single-molecule imaging
   - ✉️ [Email](#email)
 
 ## 📚 Overview
---
+---
 ADeL-SM is an adaptive deep learning framework designed to enhance single-molecule fluorescence imaging. By combining advanced denoising strategies with precise localization algorithms, it significantly improves signal-to-noise ratio and localization accuracy, enabling reliable quantitative analysis of molecular dynamics. The method has been validated on simulated and experimental data, demonstrating its ability to preserve single-molecule signals even under high-density and low-SNR conditions.
 
 
 ## ⏳ Quick start DeepSeMi
---
+---
 This tutorial will show how ADeL-SM enables high-fidelity single-molecule imaging.
 
 ### 💡 Environment
@@ -50,13 +50,24 @@ $ conda activate adel-sm-env
 $ pip install --upgrade pip
 $ pip install torch==2.1.0 torchvision==0.16.0 --index-url https://download.pytorch.org/whl/cu118  # Use appropriate CUDA version
 $ pip install scipy==1.11.4 tifffile scikit-image==0.22.0 h5py==3.10.0 opencv-python==4.9.0.80
+```
 
-### 💡 Run the trained model 
-After preparing demo data (in `demo_data` folder) and pre-trained model (in `pretrained_weights` folder), run the demo script directly:
-```bash
-# For ADeL-SM denoising/inference
-python demo_inference.py --data_path ./demo_data --weight_path ./pretrained_weights/adel-sm_model.pth
-
+### 💡 Work for your own data
+   **Configure parameters**  
+   All input paths and runtime parameters are set in `config/config.py`.  
+   ```python
+   # Key configurations in config/config.py
+   INPUT_DIR = "./demo_data"          # Input data folder
+   BATCH_SIZE = 8                     # Batch size (adjust based on memory)
+   DEVICE = "cuda" if torch.cuda.is_available() else "cpu"  # Auto-select device (GPU/CPU)
+   ```
+  **Configure parameters**
+   Run the main.py to retrain the network based on your own data. 
+   ```bash
+   $ python main.py
+```
+### ✉️ Contact
+For technical issues, questions about the framework, or collaboration inquiries, please reach out via email:  **BZ23030032@s.upc.edu.cn**  
 
 
 
