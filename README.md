@@ -5,10 +5,8 @@ Adaptive deep learning framework for high-fidelity single-molecule imaging
 
 
 
-# <font size="6">ADeL-SM</font>
-Adaptive deep learning framework for high-fidelity single-molecule imaging
-
 ### <font size="4">📋 Table of content</font>
+---
 - [Overview](#overview)
 
 ### <font size="4">🚀 Quick start ADeL-SM</font>
