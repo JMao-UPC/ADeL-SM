@@ -7,7 +7,7 @@ Adaptive deep learning framework for high-fidelity single-molecule imaging
 
 
 
-### <font size="6">📋 Table of content</font>
+### <font size="10">📋 Table of content</font>
 ---
 - [Overview](#overview)
 
