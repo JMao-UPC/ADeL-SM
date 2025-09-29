@@ -59,7 +59,7 @@ $ pip install scipy==1.11.4 tifffile scikit-image==0.22.0 h5py==3.10.0 opencv-py
    DEVICE = "cuda" if torch.cuda.is_available() else "cpu"  # Auto-select device (GPU/CPU)
    ```
   **Configure parameters**
-   Run the main.py to retrain the network based on your own data. 
+   Run the main.py to use the network based on your own data. 
    ```bash
    $ python main.py
 ```
