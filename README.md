@@ -29,7 +29,7 @@ The ADeL-SM framework runs on Python and supports both CPU and GPU acceleration 
 #### Minimum Requirements
 - **Python**: 3.9 ~ 3.11 (64-bit)  
 - **OS**: Windows 10/11, Ubuntu 20.04+, macOS 12+  
-- **Disk Space**: ≥ 5GB (for code, dependencies, and demo data)  
+- **Disk Space**: ≥ 5GB (for code, dependencies, and data)  
 
 #### GPU Acceleration (Highly Recommended)
 - **GPU**: NVIDIA GPU with CUDA Compute Capability ≥ 7.0  
